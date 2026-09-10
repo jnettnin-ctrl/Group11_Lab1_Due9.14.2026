@@ -1,0 +1,94 @@
+
+---
+title: "DS 2020 - lab #1: let's get gitting!"
+author: Jacqueline Nettnin, Vik, Mutasim
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# Overview
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this activity we are going to practice how to collaborate using Github and RStudio.  
+With your team members you will work on sharing and editing files on Github. 
+
+![](https://happygitwithr.com/img/watch-me-diff-watch-me-rebase-smaller.png)
+
+---
+
+# Getting Ready
+
+1. Identify your team! Go to Canvas and find out which team you are in for Lab 1.
+
+2. Find the other members of your team and sit with them.
+
+3. Introduce yourself to each other. 
+
+4. Go to https://ds202-at-isu.github.io/labs/lab01.html and follow the instructions.
+
+
+---
+
+# Create Your Lab Repo in Github Classroom
+
+Accept the link to Github Classroom shared in the announcement.
+  
+  - This link will ask you to log in to GitHub. Select your name from the list by clicking on it.  
+
+  - Check if your team number already exists - if it does, join the team with the right number. If it doesn't exist yet, create it yourself.
+
+---
+
+# What You Need to Do
+
+  - If this is the first time you use `git` on your machine, you should start with chapter 7
+
+  - Follow the step-by-step instructions in [Chapter 12 of Happy git with R](https://happygitwithr.com/rstudio-git-github.html), use the lab #1 repo as the test repo. **Note: don't do the last step. DO NOT delete the repo!**
+  
+      - Check the prerequisites at 12.1, if you miss something, please read that chapter. At 12.4, please modify the `README.Rmd` file. The `README.md` file will be automatically updated if you knit the `README.Rmd`
+  
+  - Describe your experience: make a note of each step. In case you run into a problem, describe it and the error message. As a group try to solve the problem. Write up the solution. 
+  
+  - Collect all of your experiences and make it into one cohesive document. Use the `README.Rmd` file of the lab-1 repo for this document, i.e. there should be a list of all steps in Chapter 12, followed by a description of all the errors you encountered and your solutions. 
+
+---
+
+# Example `README.Rmd` in the End
+
+```
+### step 12.2
+
+- Will's note: 
+
+- Craig's note: 
+
+### step 12.3
+
+- Will's note:
+
+- Craig's note
+```
+
+
+
+---
+
+# Grading & Submission
+
+
+**Grading:** We expect equal contributions from all members in a team. For the grading we will make use of the github commit history to verify that everybody contributed. 
+
+
+**Submission:**
+All submissions to the github repo will be automatically uploaded for grading once the due date is passed. Submit a link to your repository on Canvas (only one submission per team) to signal to the instructors that you are done with your submission.
+
+
+Due date: You have time until Monday at 11:59 pm to submit final edits to the README.Rmd file. Make sure that the file knits.
